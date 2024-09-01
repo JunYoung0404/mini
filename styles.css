@@ -1,0 +1,82 @@
+/* 페이지 기본 설정 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* 영화 리스트 섹션 */
+h1 {
+    width: 100%;
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+li:hover {
+    transform: translateY(-10px);
+}
+
+img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* 영화 제목 링크 스타일 */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* 컨트롤 버튼 스타일 */
+.controls {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
